@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.test.activitytest.SecondActivity">
+
+    <Button
+        android:id="@+id/button_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="关闭本页"
+        />
+    <Button
+        android:id="@+id/button_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="next"
+        />
+
+    <CheckBox
+        android:id="@+id/eatid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="吃饭"/>
+    <CheckBox
+        android:id="@+id/sleepid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="睡觉"/>
+    <CheckBox
+        android:id="@+id/dotaid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dota"/>
+
+    <CheckBox
+        android:id="@+id/allid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="全选"/>
+
+    <CheckBox
+        android:id="@+id/allnotid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="全不选"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#00FF00"
+        android:scaleType="centerCrop"
+        android:src="@drawable/id"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#FF0000"
+        android:scaleType="centerCrop"
+        android:src="@drawable/map"/>
+
+
+
+</LinearLayout>
